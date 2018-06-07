@@ -16,8 +16,11 @@ class Container {
 public:
 
     virtual bool isFoundX(T const& x) = 0;
+    
     virtual void sortElements() = 0;
+    
     virtual int size() const = 0;
+    
     virtual void print(std::ostream& os = std::cout) const = 0;
 
     virtual bool isFoundUnderCondition(Condition<T> cond) = 0;
@@ -29,6 +32,7 @@ public:
     virtual Iterator<T> itX(const T& x) = 0;
 
     virtual void pop() = 0;
+    
     virtual item<T>* getStart() = 0;
 
 
