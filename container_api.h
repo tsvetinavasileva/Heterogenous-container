@@ -14,7 +14,6 @@
 template <typename T>
 class Container {
 public:
-
     virtual bool isFoundX(T const& x) = 0;
     
     virtual void sortElements() = 0;
@@ -34,9 +33,6 @@ public:
     virtual void pop() = 0;
     
     virtual item<T>* getStart() = 0;
-
-
-
 };
 
 
